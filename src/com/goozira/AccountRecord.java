@@ -28,7 +28,7 @@ public class AccountRecord
         return account;
     }
 
-    private void setAccount(int account) {
+    public void setAccount(int account) {
         this.account = account;
     }
 
@@ -36,7 +36,7 @@ public class AccountRecord
         return firstName;
     }
 
-    private void setFirstName(String firstName) {
+    public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
 
@@ -44,7 +44,7 @@ public class AccountRecord
         return lastName;
     }
 
-    private void setLastName(String lastName) {
+    public void setLastName(String lastName) {
         this.lastName = lastName;
     }
 
@@ -52,7 +52,7 @@ public class AccountRecord
         return balance;
     }
 
-    private void setBalance(double balance) {
+    public void setBalance(double balance) {
         this.balance = balance;
     }
 
